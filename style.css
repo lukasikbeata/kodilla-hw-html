@@ -37,3 +37,44 @@ section {
   margin: 0 auto;
   padding: 0 20px;
 }
+.splash {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60%;
+}
+.page-intro {
+  margin: auto;
+  text-align: center;
+  color: #e70a0a;
+  font-size: 55px;
+}
+
+.main-title {
+  margin: 0;
+  font-weight: normal;
+  color: #ff0000;
+  font-size: 59px;
+}
+
+.main-subtitle {
+  margin: 12px 0 60px 0;
+  font-weight: normal;
+  color: #e00000be;
+  font-size: 55px;
+}
+.btn {
+  padding: 18px 24px 15px 24px;
+  font-size: 54px;
+  background-color;
+  color: #ff0000be;
+}
+.btn:hover {
+  background-color: lighten;
+  color: #5b03ffbe;
+}
